@@ -26,6 +26,7 @@ export interface OllamaConfig {
 const OLLAMA_MODELS = [
   'llama2',
   'llama3',
+  'llama3.2',
   'codellama',
   'mistral',
   'mixtral',
@@ -64,6 +65,7 @@ export type OllamaModelInputModalitiesByName = {
   // Text-only models
   llama2: readonly ['text']
   llama3: readonly ['text']
+  llama3.2: readonly ['text']
   codellama: readonly ['text']
   mistral: readonly ['text']
   mixtral: readonly ['text']
